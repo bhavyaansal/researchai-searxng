@@ -1,6 +1,6 @@
 use_default_settings: true 
 server: 
-  secret_key: "${SEARXNG_SECRET}" 
+  secret_key: "1a1a59b37cff1b526805c1ff1e2bf692" 
   limiter: false 
 search: 
   formats: 
