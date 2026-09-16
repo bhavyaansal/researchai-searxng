@@ -1,6 +1,6 @@
 use_default_settings: true 
 server: 
-  secret_key: "1a1a59b37cff1b526805c1ff1e2bf692" 
+  secret_key: "dfeabb8d9df26211cd51b97d7310fa8a963507f40c37e57d06dbd2ea4ad6f80c" 
   limiter: false 
 search: 
   formats: 
