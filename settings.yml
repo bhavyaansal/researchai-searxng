@@ -1,6 +1,6 @@
 use_default_settings: true 
 server: 
-  secret_key: "dfeabb8d9df26211cd51b97d7310fa8a963507f40c37e57d06dbd2ea4ad6f80c" 
+  secret_key: "53a412c00dd84b00cb0318f1e0de330c" 
   limiter: false 
 search: 
   formats: 
@@ -13,5 +13,3 @@ engines:
   - name: duckduckgo
     engine: duckduckgo
     shortcut: ddg
-
-    # test auto deployment
