@@ -7,9 +7,14 @@ search:
     - html 
     - json
 engines:
-  - name: google
-    engine: google
-    shortcut: go
   - name: duckduckgo
     engine: duckduckgo
     shortcut: ddg
+
+  - name: wikipedia
+    engine: wikipedia
+    shortcut: wp
+
+  - name: wikidata
+    engine: wikidata
+    shortcut: wd
