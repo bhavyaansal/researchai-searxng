@@ -1,11 +1,19 @@
-use_default_settings: true 
-server: 
+use_default_settings:
+  engines:
+    keep_only:
+      - duckduckgo
+      - wikipedia
+      - wikidata
+
+server:
   secret_key: "53a412c00dd84b00cb0318f1e0de330c" 
-  limiter: false 
-search: 
-  formats: 
-    - html 
+  limiter: false
+
+search:
+  formats:
+    - html
     - json
+
 engines:
   - name: duckduckgo
     engine: duckduckgo
