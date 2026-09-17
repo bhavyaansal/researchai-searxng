@@ -13,3 +13,5 @@ engines:
   - name: duckduckgo
     engine: duckduckgo
     shortcut: ddg
+
+    # test auto deployment
