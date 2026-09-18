@@ -8,6 +8,7 @@ server:
   limiter: false
 
 search:
+  autocomplete: ""
   formats:
     - html
     - json
@@ -16,3 +17,5 @@ engines:
   - name: qwant
     engine: qwant
     shortcut: qw
+    disabled: false
+    qwant_categ: web
