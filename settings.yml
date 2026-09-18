@@ -1,7 +1,7 @@
 use_default_settings:
   engines:
     keep_only:
-      - qwant
+      - bing
 
 server:
   secret_key: "53a412c00dd84b00cb0318f1e0de330c" 
@@ -14,8 +14,7 @@ search:
     - json
 
 engines:
-  - name: qwant
-    engine: qwant
-    shortcut: qw
+  - name: bing
+    engine: bing
+    shortcut: bi
     disabled: false
-    qwant_categ: web
