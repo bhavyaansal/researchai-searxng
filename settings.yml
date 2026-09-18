@@ -1,9 +1,7 @@
 use_default_settings:
   engines:
     keep_only:
-      - duckduckgo
-      - wikipedia
-      - wikidata
+      - qwant
 
 server:
   secret_key: "53a412c00dd84b00cb0318f1e0de330c" 
@@ -15,14 +13,6 @@ search:
     - json
 
 engines:
-  - name: duckduckgo
-    engine: duckduckgo
-    shortcut: ddg
-
-  - name: wikipedia
-    engine: wikipedia
-    shortcut: wp
-
-  - name: wikidata
-    engine: wikidata
-    shortcut: wd
+  - name: qwant
+    engine: qwant
+    shortcut: qw
